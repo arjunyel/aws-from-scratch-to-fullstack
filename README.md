@@ -157,7 +157,7 @@ Create tsconfig.json
 
 ### AWS Lambda backend
 
-Lets create an AWS Lambda to serve our backend. We will use [Hono](https://hono.dev/) and [Zod](https://zod.dev/),allowing us to auto-generate an OpenAPI document.
+Lets create an AWS Lambda to serve our backend. We will use [Hono](https://hono.dev/) and [Zod](https://zod.dev/), allowing us to auto-generate an OpenAPI document.
 
 Install the dependencies:
 
