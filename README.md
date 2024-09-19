@@ -502,4 +502,4 @@ Test it by opening the `openapi-docs.yml` file with <https://editor-next.swagger
 
 When you are ready to deploy your zero user app to production and want to monitor, debug, and setup CI/CD check out the SST console <https://sst.dev/docs/console>
 
-If you are brand new to AWS, check out @adamdotdev's free ProAWS course. His section on setting up your AWS account heavily influenced this tutorial. <https://www.proaws.dev/>
+If you are new to AWS or just want to learn more, check out @adamdotdev's free ProAWS course. His section on setting up your AWS account heavily influenced this tutorial. <https://www.proaws.dev/>
