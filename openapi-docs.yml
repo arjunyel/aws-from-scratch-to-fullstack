@@ -1,0 +1,35 @@
+openapi: 3.1.0
+info:
+  title: AWS From Scratch to Fullstack
+  version: 1.0.0
+servers:
+  - description: Production API Server.
+    url: <Insert Production URL here>
+components:
+  securitySchemes:
+    Bearer:
+      type: http
+      scheme: bearer
+  schemas: {}
+  parameters: {}
+paths:
+  /wisdom:
+    get:
+      summary: Get wise wisdom
+      tags:
+        - Wisdom
+      security:
+        - Bearer: []
+      responses:
+        "200":
+          description: Here is some wisdom
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  wisdom:
+                    type: string
+                required:
+                  - wisdom
+webhooks: {}

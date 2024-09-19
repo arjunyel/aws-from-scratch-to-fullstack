@@ -1,0 +1,6 @@
+{
+  "name": "@aws-from-scratch-to-fullstack/backend",
+  "private": true,
+  "type": "module",
+  "sideEffects": false
+}
