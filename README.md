@@ -8,13 +8,13 @@ The cloud was a gift to developers, allowing creativity to be unburdened by the 
 
 We got addicted to the simplicity of "it's someone else's problem." In a never-ending chase of abstractions to make our lives easier, we increasingly farm out our work to third-party dev tool companies, trading flexibility and self-sovereignty for the allure of a better developer experience. It is understandable to anyone who has had to use the AWS console. We began unbundling the cloud into numerous companies that host a single aspect of our application as if they were Unix command line tools.
 
-Now, we are running into issues on multiple dimensions. The big companies are finding it cheaper to buy than rent. Some things don't change. Price will always be an issue. The small indie devs with zero users find their tech stack and data scattered across multiple GUIs and third-party databases, quickly becoming very complex to piece together.
+Now, we are running into issues on multiple dimensions. The big companies are finding it cheaper to buy than rent. Some things don't change, price will always be an issue. The small indie devs with zero users find their tech stack and data scattered across multiple GUIs and third-party databases, quickly becoming very complex to piece together.
 
 ![Strong men make good times, good times make  weak men, weak men make hard times, hard times makes strong men](./hard-times.webp)
 
 We are returning to the heydey of the cloud, where instead of building on top of someone's wrapper over a hyperscaler, we can deploy and use the hyperscaler clouds directly. Infrastructure as Code (IaC) tools allow us to deploy to AWS with a much better experience than before. We might not retain 100% of the developer experience benefits of the initial stages of unbundling, but we gain so much back from having everything under one login.
 
-The following is a tutorial on developing and deploying a fullstack application to AWS. We set up the AWS account from scratch, and then we use SST, an open-source IaC framework that makes it easy to build modern applications on your own infrastructure. It uses Pulumi under the hood, which gives you access to over 150 infrastructure providers, and has built-in components for AWS and Cloudflare.
+The following is a tutorial on developing and deploying a fullstack application to AWS. We set up an AWS account from scratch, and then we use SST, an open-source IaC framework that makes it easy to build modern applications on your own infrastructure. It uses Pulumi under the hood, which gives you access to over 150 infrastructure providers, and has built-in components for AWS and Cloudflare.
 
 <https://x.com/thdxr/status/1830990051322237260>
 
